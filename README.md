@@ -13,4 +13,6 @@ Then by convoluting our image with our first kernel from top to bottom we get th
 
 ![Gradient in y](https://latex.codecogs.com/gif.latex?G_%7By%7D%20%3D%20%5Cbegin%7Bbmatrix%7D%20&plus;1%20%26%20&plus;2%20%26%20&plus;1%5C%5C%200%20%26%200%20%26%200%5C%5C%20-1%20%26%20-2%20%26%20-1%20%5Cend%7Bbmatrix%7D)
 
-At this point we have the vectors of the gradient of the image. Now by finding the magnitude o each vector we will get the edges we need
+At this point we have the vectors of the gradient of the image. Now by finding the magnitude o each vector we will get the edges we need.
+
+![Gradient Magnitude](https://latex.codecogs.com/gif.latex?G%20%3D%20%5Csqrt%7B%28G_%7Bx%7D%29%5E%7B2%7D%20&plus;%20%28G_%7By%7D%29%5E%7B2%7D%7D)
