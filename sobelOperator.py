@@ -13,7 +13,7 @@ def sobelOperator(img):
     return container
     pass
 
-b = 1
+a = 2
 
 img = cv2.cvtColor(cv2.imread("sol_key.png"), cv2.COLOR_BGR2GRAY)
 img = sobelOperator(img)
